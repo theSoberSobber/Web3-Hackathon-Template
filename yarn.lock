@@ -1869,6 +1869,16 @@
   "resolved" "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
   "version" "2.0.0"
 
+"@solana/buffer-layout-utils@^0.2.0":
+  "integrity" "sha512-szG4sxgJGktbuZYDg2FfNmkMi0DYQoVjN2h7ta1W1hPrwzarcFLBq9UpX1UjNXsNpT9dn+chgprtWGioUAr4/g=="
+  "resolved" "https://registry.npmjs.org/@solana/buffer-layout-utils/-/buffer-layout-utils-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "@solana/buffer-layout" "^4.0.0"
+    "@solana/web3.js" "^1.32.0"
+    "bigint-buffer" "^1.1.5"
+    "bignumber.js" "^9.0.1"
+
 "@solana/buffer-layout@^4.0.0":
   "integrity" "sha512-lR0EMP2HC3+Mxwd4YcnZb0smnaDw7Bl2IQWZiTevRH5ZZBZn6VRWn3/92E3qdU4SSImJkA6IDHawOHAnx/qUvQ=="
   "resolved" "https://registry.npmjs.org/@solana/buffer-layout/-/buffer-layout-4.0.0.tgz"
@@ -1876,7 +1886,16 @@
   dependencies:
     "buffer" "~6.0.3"
 
-"@solana/web3.js@1.52.0":
+"@solana/spl-token@^0.3.5":
+  "integrity" "sha512-0bGC6n415lGjKu02gkLOIpP1wzndSP0SHwN9PefJ+wKAhmfU1rl3AV1Pa41uap2kzSCD6F9642ngNO8KXPvh/g=="
+  "resolved" "https://registry.npmjs.org/@solana/spl-token/-/spl-token-0.3.5.tgz"
+  "version" "0.3.5"
+  dependencies:
+    "@solana/buffer-layout" "^4.0.0"
+    "@solana/buffer-layout-utils" "^0.2.0"
+    "buffer" "^6.0.3"
+
+"@solana/web3.js@^1.32.0", "@solana/web3.js@^1.47.4", "@solana/web3.js@1.52.0":
   "integrity" "sha512-oG1+BX4nVYZ0OBzmk6DRrY8oBYMsbXVQEf9N9JOfKm+wXSmjxVEEo8v3IPV8mKwR0JvUWuE8lOn3IUDiMlRLgg=="
   "resolved" "https://registry.npmjs.org/@solana/web3.js/-/web3.js-1.52.0.tgz"
   "version" "1.52.0"
@@ -2696,6 +2715,11 @@
   "version" "1.1.5"
   dependencies:
     "bindings" "^1.3.0"
+
+"bignumber.js@^9.0.1":
+  "integrity" "sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A=="
+  "resolved" "https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.1.0.tgz"
+  "version" "9.1.0"
 
 "bind-decorator@^1.0.11":
   "integrity" "sha512-yzkH0uog6Vv/vQ9+rhSKxecnqGUZHYncg7qS7voz3Q76+TAi1SGiOKk2mlOvusQnFz9Dc4BC/NMkeXu11YgjJg=="
